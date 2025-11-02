@@ -31,6 +31,9 @@ Route::get('/job_details', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/services', function () {
+    return view('services');
+});
 Route::get('/job_details', function () {
     return view('job_details');
 });
