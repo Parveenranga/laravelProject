@@ -1,0 +1,29 @@
+BODY 
+
+Body
+urlencoded/json
+aadhaar_no 987654321098
+(Required) Enter aadhaar number
+
+CURL
+
+curl --location 'https://uat.apiclub.in/v1/aadhaar_v2/send_otp' \
+--header 'X-Request-Id: test' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Accept: application/json' \
+--header 'X-API-KEY: <API Key>' \
+--data-urlencode 'aadhaar_no=987654321098'
+
+
+RESPONSE
+
+{
+    "code": 200,
+    "status": "success",
+    "message": "Success",
+    "request_id": "test",
+    "response": {
+        "ref_id": "test",
+        "message": "OTP has been sent"
+    }
+}
