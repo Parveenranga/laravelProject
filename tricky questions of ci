@@ -1,0 +1,109 @@
+🔥 1–10: Core Concepts & Architecture
+
+What is the difference between app/ and system/ folders in CI4?
+
+Why is CI4 no longer MVC but MVCR? Explain the “R” part.
+
+How does CI4 handle routing if two routes match the same URI?
+
+What is the purpose of Services.php?
+
+Helper is procedural or OOPS based? Why?
+
+Difference between a Helper and a Library in CI4?
+
+What is Autoloading PSR-4 and how CI4 implements it?
+
+Explain how CI4 is more secure than CI3.
+
+What is a Filter? How is it different from Middleware in Laravel?
+
+Can you define multiple base URLs in CI4? How?
+
+🔥 11–20: Routing, Filters & Controllers
+
+What is the purpose of Route Grouping? Give a real use case.
+
+Why do we use (:segment) vs (:any) vs (:num)?
+
+How does CI4 handle method spoofing?
+
+Explain how CSRF works in CI4 with an example.
+
+What happens internally when a route is dispatched?
+
+Difference between before and after filters.
+
+Can filters access request data?
+
+How do you apply a filter to only some methods in a controller?
+
+What is RESTful Controller? How is it different from normal controller?
+
+What is the purpose of secureHeaders() in CI4?
+
+🔥 21–30: Models, Entities & Database
+
+Difference between Entity and Model in CI4?
+
+Can Model have multiple database connections? How?
+
+Explain soft deletes & how they work in CI4.
+
+What is return type: array vs object vs entity?
+
+How to log SQL queries in CI4?
+
+How does Query Builder escape values?
+
+How to run raw queries and still use Query Builder features?
+
+How is validation integrated inside a Model?
+
+What are Mutators and Accessors in Entities?
+
+How does CI4 handle transactions?
+
+🔥 31–40: Security, Sessions, API, File Handling
+
+Explain CI4 security features: Escaping, CSRF, CSP, secure cookies, filters.
+
+Difference between session drivers: file, database & redis.
+
+Why is session not working inside AJAX request sometimes?
+
+How to secure uploaded files in CI4?
+
+Which method prevents directory traversal attacks in file uploads?
+
+Why does $this->request->getJSON() sometimes return null?
+
+How to implement JWT auth in CI4?
+
+How do you throttle API requests in CI4?
+
+What is Content Negotiation?
+
+How to return JSON response the correct CI4 way?
+
+🔥 41–50: Performance, Deployment & Debugging
+
+What is the difference between production and development mode?
+
+Why CI4 logs cause “No space left on device” error?
+
+How to disable logging for some events?
+
+Why Composer is mandatory in CI4?
+
+What is the purpose of .env file and how CI4 loads it?
+
+How to optimize CI4 performance in production?
+
+How to set up cron jobs in CI4?
+
+What are Factories in CI4?
+
+How does CI4 handle exceptions internally?
+
+How to safely store passwords and prevent timing attacks?
